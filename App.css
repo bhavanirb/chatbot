@@ -1,0 +1,29 @@
+.bg-custom-image {
+  background-image: url("C:/Users/BHAVANI B/Downloads/chatbot-master (1)/chatbot-master/frontend/public/pg12.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.control-button {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  color: rgb(19, 2, 2);
+  font-size: x-large;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background-color: #0f83c7;
+  box-shadow: 0 0 10px 2px black;
+  transition: all 0.2s ease-in-out;
+}
+
+.control-button:hover {
+  transform: scale(1.2);
+  transition: all 0.1s ease-in-out;
+}
+
+.control-button:active {
+  transform: scale(1);
+}
