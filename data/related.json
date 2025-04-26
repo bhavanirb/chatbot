@@ -1,0 +1,427 @@
+[
+ {
+  "intent": "welcomegreeting",
+  "related": [
+   {
+    "text": "About College",
+    "tag": "about_college"
+   },
+   {
+    "text": "Contact",
+    "tag": "contact"
+   },
+   {
+    "text": "Course",
+    "tag": "course"
+   },
+   {
+    "text": "Admission Enquiry",
+    "tag": "admission_enquiry"
+   },
+   {
+    "text": "Scholorship",
+    "tag": "scholorship"
+   }
+  ]
+ },
+ {
+  "intent": "about_college",
+  "related": [
+   {
+    "text": "Student Strength",
+    "tag": "student_strength"
+   },
+   {
+    "text": "Address",
+    "tag": "address"
+   },
+   {
+    "text": "Campus visit",
+    "tag": "campus_visit"
+   }
+  ]
+ },
+ {
+  "intent": "campus_visit",
+  "related": [
+   {
+    "text": "Address",
+    "tag": "address"
+   },
+   {
+    "text": "Visit Hours",
+    "tag": "visit_hours"
+   }
+  ]
+ },
+ {
+  "intent": "course",
+  "related": [
+   {
+    "text": "Computer science and Engineering",
+    "tag": "computer__science_and_engineering"
+   },
+   {
+    "text": "Mechanical Engineering",
+    "tag": "mechanical_engineering"
+   },
+   {
+    "text": "Civil Engineering",
+    "tag": "civil_engineering"
+   },
+   {
+    "text": "Electrical Engineering",
+    "tag": "electrical_engineering"
+   },
+   {
+    "text": "AI&ML",
+    "tag": "ai&ml_engineering"
+   }
+  ]
+ },
+ {
+  "intent": "computer__science_and_engineering",
+  "related": [
+   {
+    "text": "Intake",
+    "tag": "computer__science_and_engineering_intake"
+   },
+   {
+    "text": "Fee Structure",
+    "tag": "computer__science_and_engineering_fee"
+   },
+   {
+    "text": "Eligibility Criteria",
+    "tag": "computer_criteria"
+   },
+   {
+    "text": "Course Duration",
+    "tag": "computer_science_and_engineering_duration"
+   },
+   {
+    "text": "Admission",
+    "tag": "admission_enquiry"
+   }
+  ]
+ },
+ {
+  "intent": "computer__science_and_engineering_intake",
+  "related": [
+   {
+    "text": "FE",
+    "tag": "computer_first"
+   },
+   {
+    "text": "DSY",
+    "tag": "computer_dsy"
+   }
+  ]
+ },
+ {
+  "intent": "computer_fee",
+  "related": [
+   {
+    "text": "OPEN",
+    "tag": "open_fee"
+   },
+   {
+    "text": "OBC",
+    "tag": "obc_fee"
+   },
+   {
+    "text": "SC/ST",
+    "tag": "scst_fee"
+   }
+  ]
+ },
+ {
+  "intent": "computer_duration",
+  "related": [
+   {
+    "text": "Admission",
+    "tag": "admission_enquiry"
+   }
+  ]
+ },
+ {
+  "intent": "mechanical_engineering",
+  "related": [
+   {
+    "text": "Intake",
+    "tag": "mechanical_intake"
+   },
+   {
+    "text": "Fee Structure",
+    "tag": "mechanical_fee"
+   },
+   {
+    "text": "Eligibility Criteria",
+    "tag": "mechanical_criteria"
+   },
+   {
+    "text": "Course Duration",
+    "tag": "mechanical_duration"
+   },
+   {
+    "text": "Admission",
+    "tag": "admission_enquiry"
+   }
+  ]
+ },
+ {
+  "intent": "mechanical_intake",
+  "related": [
+   {
+    "text": "FE",
+    "tag": "mechanical_first"
+   },
+   {
+    "text": "DSY",
+    "tag": "mechanical_dsy"
+   }
+  ]
+ },
+ {
+  "intent": "mechanical_fee",
+  "related": [
+   {
+    "text": "OPEN",
+    "tag": "open_fee"
+   },
+   {
+    "text": "OBC",
+    "tag": "obc_fee"
+   },
+   {
+    "text": "SC/ST",
+    "tag": "scst_fee"
+   }
+  ]
+ },
+ {
+  "intent": "mechanical_engineering_duration",
+  "related": [
+   {
+    "text": "Admission",
+    "tag": "admission_enquiry"
+   }
+  ]
+ },
+ {
+  "intent": "civil_engineering",
+  "related": [
+   {
+    "text": "Intake",
+    "tag": "civil_intake"
+   },
+   {
+    "text": "Fee Structure",
+    "tag": "civil_fee"
+   },
+   {
+    "text": "Eligibility Criteria",
+    "tag": "civil_criteria"
+   },
+   {
+    "text": "Course Duration",
+    "tag": "civil_duration"
+   },
+   {
+    "text": "Admission",
+    "tag": "admission_enquiry"
+   }
+  ]
+ },
+ {
+  "intent": "civil_intake",
+  "related": [
+   {
+    "text": "FE",
+    "tag": "civil_first"
+   },
+   {
+    "text": "DSY",
+    "tag": "civil_dsy"
+   }
+  ]
+ },
+ {
+  "intent": "civil_fee",
+  "related": [
+   {
+    "text": "OPEN",
+    "tag": "open_fee"
+   },
+   {
+    "text": "OBC",
+    "tag": "obc_fee"
+   },
+   {
+    "text": "SC/ST",
+    "tag": "scst_fee"
+   }
+  ]
+ },
+ {
+  "intent": "civil_engineering_duration",
+  "related": [
+   {
+    "text": "Admission",
+    "tag": "admission_enquiry"
+   }
+  ]
+ },
+ {
+  "intent": "electrical_engineering",
+  "related": [
+   {
+    "text": "Intake",
+    "tag": "electrical_intake"
+   },
+   {
+    "text": "Fee Structure",
+    "tag": "electrical_fee"
+   },
+   {
+    "text": "Eligibility Criteria",
+    "tag": "electrical_criteria"
+   },
+   {
+    "text": "Course Duration",
+    "tag": "electrical_duration"
+   },
+   {
+    "text": "Admission",
+    "tag": "electrical_enquiry"
+   }
+  ]
+ },
+ {
+  "intent": "electrical_intake",
+  "related": [
+   {
+    "text": "FE",
+    "tag": "electrical_first"
+   },
+   {
+    "text": "DSY",
+    "tag": "electrical_dsy"
+   }
+  ]
+ },
+ {
+  "intent": "electrical_fee",
+  "related": [
+   {
+    "text": "OPEN",
+    "tag": "open_fee"
+   },
+   {
+    "text": "OBC",
+    "tag": "obc_fee"
+   },
+   {
+    "text": "SC/ST",
+    "tag": "scst_fee"
+   }
+  ]
+ },
+ {
+  "intent": "electrical_duration",
+  "related": [
+   {
+    "text": "Admission",
+    "tag": "admission_enquiry"
+   }
+  ]
+ },
+ {
+  "intent": "ai&ml_engineering",
+  "related": [
+   {
+    "text": "Intake",
+    "tag": "ai&ml_intake"
+   },
+   {
+    "text": "Fee Structure",
+    "tag": "ai&ml_fee"
+   },
+   {
+    "text": "Eligibility Criteria",
+    "tag": "ai&ml_criteria"
+   },
+   {
+    "text": "Course Duration",
+    "tag": "ai&ml_duration"
+   },
+   {
+    "text": "Admission",
+    "tag": "ai&ml_enquiry"
+   }
+  ]
+ },
+ {
+  "intent": "ai&ml_intake",
+  "related": [
+   {
+    "text": "FE",
+    "tag": "ai&ds_first"
+   },
+   {
+    "text": "DSY",
+    "tag": "ai&ds_dsy"
+   }
+  ]
+ },
+ {
+  "intent": "ai&ml_fee",
+  "related": [
+   {
+    "text": "OPEN",
+    "tag": "open_fee"
+   },
+   {
+    "text": "OBC",
+    "tag": "obc_fee"
+   },
+   {
+    "text": "SC/ST",
+    "tag": "scst_fee"
+   }
+  ]
+ },
+ {
+  "intent": "ai&ml_duration",
+  "related": [
+   {
+    "text": "Admission",
+    "tag": "admission_enquiry"
+   }
+  ]
+ },
+ {
+    "intent": "no_indent",
+    "related": [
+        {
+            "text": "About College",
+            "tag": "about_college"
+        },
+        {
+            "text": "Contact",
+            "tag": "contact"
+        },
+        {
+            "text": "Course",
+            "tag": "course"
+        },
+        {
+            "text": "Admission Enquiry",
+            "tag": "admission_enquiry"
+        },
+        {
+            "text": "Scholorship",
+            "tag": "scholorship"
+        }
+    ]
+ }
+]
